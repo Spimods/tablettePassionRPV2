@@ -17,11 +17,11 @@
 class DataSource
 {
     
-    const HOST = '185.200.246.160';
+    const HOST = '';
     
     const USERNAME = 'code';
     
-    const PASSWORD = '!P@Ss10nRP!';
+    const PASSWORD = '';
     
     const DATABASENAME = 'esxlegacy_182ae5';
     
