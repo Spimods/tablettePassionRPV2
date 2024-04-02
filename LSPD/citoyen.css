@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+background-image: url(backtable.jpg);
+background-repeat:no-repeat ;
+background-position-x: center;
+background-size: cover;
+}
+.header {
+    color: #ffffff;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    height: 25px;
+    font-size: 6px;
+	fill:#ffffff;
+    margin-left: 6px;
+}
+.left p {
+	display: inline-block;
+	left: 0;
+	position: relative;
+	left: 2px;
+    top: -2000px;
+}
+svg{
+	color: #fff;
+	margin-top: 0.3em;
+    margin-left: 0.5em;
+}
+.center{
+	display: inline-block;
+	left: 0;
+	position: relative;
+    left: 230px;
+	top: -18px;
+}
+.right{
+	fill:#ffffff;
+	display: inline-block;
+	left: 0;
+	position: relative;
+	left: 510px;
+	top: -42px;
+}
+.right a{
+	margin-left: 0.5em;
+	fill:#ffffff;
+	text-decoration: none;
+	color: #ffffff;
+
+}
+
+.button {border-radius: 50%;}
+
+.button {
+	background-color: #0e2ea5;
+	border: none;
+	color: white;
+    padding: 0px 7px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	margin: 4px 2px;
+	position: relative;
+	z-index: 2;
+	margin-top: 10px;
+    margin-bottom: -24px;
+	left: 92%;
+  }
+
+  .button:hover {
+	background-color: #0e69a5;
+
+  }
+/*.home{
+  fill: #283871;
+  display: flex;
+  top: 39px;
+  width: 30px;
+  margin-top: -24px;
+  padding: 0;
+  height: auto;
+  position: relative;
+  flex-wrap: nowrap;
+}
+.home:hover{
+  fill: #0e69a5;
+}
+*/
+#myInput {
+    width: 123px;
+    font-size: 10px;
+    padding: 4px;
+    position: fixed;
+    top: 39px;
+    left: 17px;
+}
+.home {
+    background-color: #fff;
+    position: fixed;
+    bottom: 5px;
+    left: 37.4%;
+    height: 3px;
+    width: 150px;
+    border-radius: 2em;
+}

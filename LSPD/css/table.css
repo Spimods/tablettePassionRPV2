@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+	background: rgb(141,8,148);
+	background: -moz-linear-gradient(90deg, rgba(141,8,148,1) 0%, rgba(133,54,181,1) 28%, rgba(96,72,215,1) 75%, rgba(39,108,233,1) 100%);
+	background: -webkit-linear-gradient(90deg, rgba(141,8,148,1) 0%, rgba(133,54,181,1) 28%, rgba(96,72,215,1) 75%, rgba(39,108,233,1) 100%);
+	background: linear-gradient(90deg, rgba(141,8,148,1) 0%, rgba(133,54,181,1) 28%, rgba(96,72,215,1) 75%, rgba(39,108,233,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d0894",endColorstr="#276ce9",GradientType=1);
+}
+table {
+	width: 100%;
+	border-radius: 1em;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border: none;
+}
+
+th {
+    padding: 0.2rem 0.4rem;
+    text-align: center;
+    font-size: 10px;
+}
+
+td {
+    padding: 0.1em 0.4rem;
+	font-size: 10px;
+	text-align: center;
+	color: #0e2ea5;
+}
+
+table.striped tr:nth-of-type(2n+1) {
+	background-color: #c9c9c9;
+
+}
+table.striped tr:nth-of-type(2n) {
+	background-color: #ffffff;
+}
+table.striped th {
+	background-color: #2e2e2e;
+
+}
+tfoot {
+	border-top: 2px solid #d2d6dd;
+	border-bottom: 2px solid #d2d6dd;
+}
+
+
+table.striped{
+	width: 95%;
+    margin: auto;
+}
+thead {
+	border-radius: 1em;
+    border: none;
+    background-color: #333133;
+    color: white;
+}
+.mr-20, .user{
+	fill:#585858
+}

@@ -1,0 +1,88 @@
+body{
+	background-image: url(wallpaperprix.png);
+	background-repeat:no-repeat ;
+	background-position-x: center;
+	background-size: cover;
+	background-color: black;
+	}
+
+iframe {
+    position: fixed;
+    width: 100%;
+	top: 34px;
+    height: 100%;
+    left: 0;
+    border: transparent;
+}
+
+.header{
+	color: #c6c6c6;
+	font-family: 'Rubik', sans-serif;
+	width: 100%;
+	top: 0;
+	height: 25px;
+	font-size: 6px;
+}
+.left p {
+	display: inline-block;
+	left: 0;
+	position: relative;
+	left: 2px;
+    top: -2000px;
+}
+svg{
+	color: #fff;
+	margin-left: 0.5em;
+}
+.center{
+	display: inline-block;
+	left: 0;
+	position: relative;
+    left: 230px;
+	top: -18px;
+}
+.right{
+	display: inline-block;
+	left: 0;
+	position: relative;
+	left: 510px;
+    top: -40px;
+}
+.right a{
+	margin-left: 0.5em;
+}
+
+.back {
+    background-color: #fff;
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 16px;
+}
+button {
+    width: 10%;
+    height: 14px;
+    left: -10px;
+    position: relative;
+    font-size: 10px;
+    border: 0;
+	color: #2D78FF;
+}
+button a {
+    font-size: 9px;
+	color: #2D78FF;
+    display: inline-flex;
+}
+button a span {
+margin-left: 3px;
+}
+button a svg{
+	fill: #2D78FF;
+}
+svg{
+	fill: #fff;
+}
+.backcentre{
+	left: 260px;
+    position: fixed;
+}

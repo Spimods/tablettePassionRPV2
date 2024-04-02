@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    background-image: url(wallpaperprix.png);
+    background-repeat:no-repeat ;
+    background-position-x: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header{
+	color: #c6c6c6;
+	font-family: 'Rubik', sans-serif;
+	width: 100%;
+	top: 0;
+	height: 25px;
+	font-size: 6px;
+}
+.left p {
+	display: inline-block;
+	left: 0;
+	position: relative;
+	left: 2px;
+    top: -2000px;
+}
+svg{
+	color: #fff;
+	margin-left: 0.5em;
+}
+.center{
+	display: inline-block;
+	left: 0;
+	position: relative;
+    left: 230px;
+	top: -18px;
+}
+
+.right{
+	display: inline-block;
+	left: 0;
+	position: relative;
+    left: 505px;
+    top: -39px;
+}
+
+.right a{
+	margin-left: 0.5em;
+}
+
+iframe {
+    position: fixed;
+    width: 100%;
+    top: 20px;
+    height: 100%;
+    left: 0;
+    border: transparent;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+}
+
+iframe::-webkit-scrollbar { 
+	width: 0 !important 
+}

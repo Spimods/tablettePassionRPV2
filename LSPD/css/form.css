@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+input, textarea, select {
+    box-sizing: border-box;
+    width: 200px;
+    height: initial;
+    padding: 5px 5px;
+    border: transparent;
+    border-radius: 1em;
+}
+
+input[type="checkbox"] {
+	width: auto;
+	vertical-align: text-bottom;
+}
+
+textarea {
+	width: 300px;
+}
+
+select {
+	display: initial;
+	height: 30px;
+	padding: 2px 5px;
+}
+
+button, input[type=submit] {
+    padding: 6px 0px;
+    font-size: 1em;
+    cursor: pointer;
+    border: 1.5px solid;
+	border-radius: 25px;
+	color: #000000;
+	background-color: #0e2ea5;
+	border-color: #000000 #000000 #000000;
+}
+
+input[type=submit]:hover {
+	background-color: #0e2ea5;
+}
+
+::placeholder {
+	color: #bdbfc4;
+}
+
+label {
+	display: block;
+	color: #abbdff;
+}
+.modiform{
+	max-width: 200px;
+	z-index: 10;
+    position: relative;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.home{
+	fill: #0e69a5;
+
+}
